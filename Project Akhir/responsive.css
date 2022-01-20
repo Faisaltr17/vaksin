@@ -1,0 +1,51 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .jenis {
+    width: 45%;
+    margin-bottom: 50px;
+    height: 200px;
+  }
+  .jenis:hover {
+    background-color: #252525;
+    color: #fcfcfc;
+  }
+  .heading h2 {
+    font-size: 20pt;
+  }
+  .jenis h4 {
+    margin-bottom: 5px;
+
+    font-size: 16pt;
+  }
+  .top-wrapper h1 {
+    font-size: 80px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .jenis {
+    width: 100%;
+    font-size: 20pt;
+  }
+  .jenis:hover {
+    background-color: #252525;
+    color: #fcfcfc;
+  }
+
+  .top-wrapper {
+    background-image: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
